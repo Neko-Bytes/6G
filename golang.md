@@ -1,4 +1,4 @@
-# The Absolute Beginner's Guide to Go (Golang)
+# The Beginner's Guide to Go (Golang)
 
 ## Module 1: Introduction to Go & How it Runs
 

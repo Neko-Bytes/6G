@@ -1,9 +1,5 @@
 # Open5GS Network Function (NF) Architecture Reference
 
-This document provides a formal technical specification of the Open5GS Network Function architecture. It is intended for developers who require a deep understanding of the system's execution model, memory management, and state orchestration.
-
----
-
 ## 1. Architectural Overview: The Single-Threaded Reactor
 Open5GS NFs (AMF, SMF, UPF, etc.) are implemented as independent, single-threaded processes utilizing a **Reactor Pattern**. 
 

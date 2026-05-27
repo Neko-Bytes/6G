@@ -1,6 +1,6 @@
 # Introduction to MongoDB: Persistent Storage in Open5GS
 
-This document provides a foundational overview of MongoDB, the database system utilized by Open5GS for persistent data storage. It is designed for individuals with no prior experience in database technologies.
+This document provides a foundational overview of MongoDB, the database system utilized by Open5GS for persistent data storage. 
 
 ---
 

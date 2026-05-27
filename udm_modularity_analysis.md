@@ -1,6 +1,6 @@
 # Comparative Architectural Analysis: UDM Modularity in free5gc vs. open5gs
 
-This document provides a comprehensive analysis of the Unified Data Management (UDM) implementations in two prominent open-source 5G core projects: **free5gc** (written in Golang) and **open5gs** (written in C). It specifically examines their structural modularity, concurrency models, state management, and how their architectural choices align with emerging 6G paradigms (such as Procedural Statelessness).
+This document provides a analysis of the Unified Data Management (UDM) implementations in two prominent open-source 5G core projects: **free5gc** (written in Golang) and **open5gs** (written in C). It specifically examines their structural modularity, concurrency models, state management, and how their architectural choices align with emerging 6G paradigms (such as Procedural Statelessness).
 
 ---
 

@@ -1,7 +1,7 @@
-# Comprehensive Technical Guide: Normal Statelessness vs. PP5gs (Procedural Statelessness)
+# Technical Guide: Normal Statelessness vs. PP5gs (Procedural Statelessness)
 
 ## 1. Introduction
-This documentation outlines the architectural evolution of 5G core networks, focusing on the research concept of **PP5gs (Procedure-Based and Stateless Architecture for 5G)**. This guide synthesizes concepts regarding network state management, as referenced in *6G Trust Anchor Architecture* (series_36.pdf) and *5G Architecture* (series_36.pdf).
+This documentation outlines the architectural evolution of 5G core networks, focusing on the research concept of **PP5gs (Procedure-Based and Stateless Architecture for 5G)**. 
 
 ## 2. The Evolution of State Management
 "State" in telecommunications refers to the temporary, active data required by a Network Function (NF) to maintain a user's connection (e.g., encryption keys, QoS rules, routing paths).
@@ -99,8 +99,4 @@ Returns a fully populated, nested object containing all variables required for t
 ## 5. Failure Resilience
 
 * **The PP5gs Advantage:** If an NF executing a PP5gs procedure crashes midway through, the central database remains 100% uncorrupted because no partial, mid-step updates were written. A backup NF can immediately fetch the original, clean context object from the database and restart the procedure in milliseconds.
-
-## 6. Trust Anchor Integration
-
-The PP5gs model is inherently compatible with a **Trust Anchor (TA)** architecture. Because the TA acts as an autonomous reputation governance layer, it only needs to validate the NF's reputation *once* when the initial "Unified Context Object" is fetched, rather than repeatedly validating the NF's reputation for every single fragmented sub-step request. This drastically lowers the governance overhead in a zero-trust environment.
 
