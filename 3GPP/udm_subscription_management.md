@@ -4,7 +4,7 @@ This document provides a technical analysis of subscriber data stored in the Uni
 
 ---
 
-## 1. Exhaustive UDM Subscription Data Catalog
+## 1. UDM Subscription Data Catalog
 
 The UDM acts as the Stage 3 protocol front-end for subscriber data, persisting it in the Unified Data Repository (UDR). Data is structured into specific models defined in **TS 29.503**.
 
